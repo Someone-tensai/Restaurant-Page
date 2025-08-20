@@ -1,9 +1,11 @@
+import RestaurantImage from "./img/Restaurant.jpg"
 function on_initial_load()
 {
+   
     let content = document.querySelector("#content");
-
+    content.innerHTML = "";
     let image = document.createElement("img");
-    image.src = "./img/Restaurant.jpg";
+    image.src = RestaurantImage;
     image.alt = "Restaurant Stock Picture";
     image.style.height ="300px";
     image.style.width = "500px";
@@ -16,5 +18,7 @@ function on_initial_load()
     let description = document.createElement("p");
     description.textContent = 'This is a W restaurant fr fr.'
     content.appendChild(description);
+
+    console.log("Initial Load Called");
 }
 export default on_initial_load;
