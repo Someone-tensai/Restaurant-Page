@@ -1,0 +1,1 @@
+This is a simple restaurant webpage made using webpack technology.
