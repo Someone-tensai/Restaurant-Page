@@ -51,8 +51,6 @@ function menu_clicked()
     menu.appendChild(price4);
 
     content.appendChild(menu);
-
-    console.log("Menu Clicked");
 }
 
 export default menu_clicked;

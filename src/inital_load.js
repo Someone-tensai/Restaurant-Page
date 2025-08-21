@@ -18,7 +18,5 @@ function on_initial_load()
     let description = document.createElement("p");
     description.textContent = 'This is a W restaurant fr fr.'
     content.appendChild(description);
-
-    console.log("Initial Load Called");
 }
 export default on_initial_load;
